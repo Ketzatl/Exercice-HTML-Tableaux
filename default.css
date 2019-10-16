@@ -1,0 +1,110 @@
+/*ID*/
+
+#conteneur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Moniquexxx {
+    color: black;
+}
+
+#table1 {
+    caption-side: bottom;
+}
+
+/*CLASS*/
+
+
+.element {
+    position: relative;
+    
+}
+
+.Prénoms {
+    font-style: italic;
+    font-weight: bold;
+    color: darkblue;
+}
+
+
+/*BODY*/
+
+p {
+    text-align: center;
+    color: darkred;
+}
+
+a {
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1:hover {
+    box-shadow: 13px 13px 22px black;
+    transition: 0.44s;
+}
+
+
+
+h1 {
+    color: darkred;
+    text-decoration: underline;
+    text-align: center;
+    margin: 50px;
+    border: 8px black double;
+    padding: 15px;
+    background: beige;
+}
+
+caption {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+div :nth-child(1) {
+    order: 2;
+    right: 150px;
+}
+
+div :nth-child(2) {
+    order: 3;
+}
+
+
+td,
+th {
+    text-align: center;
+    border: 1px darkred solid;
+    background: beige;
+    color: blue;
+    padding: 6px;
+}
+
+th {
+    color: beige;
+    background: grey;
+}
+
+caption:hover {
+    text-shadow: 4px 4px 20px black;
+    transition: 0.44s;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 44px;
+}
+
+tbody, thead {
+    border: 5px darkred outset;
+}
+
+body {
+    background: lightgrey;
+    border: 2px darkred double
+}

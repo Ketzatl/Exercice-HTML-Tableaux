@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="default.css">
+    <title>Test Tableaux</title>
+</head>
+
+<body id="hautdepage">
+
+    <h1>Exercices HTML/CSS sur les Tableaux</h1>
+
+    <div id="conteneur">
+        <div class="element">
+            <table id="table1">
+                <caption>TEST Tableau 1</caption>
+                <tr>
+                    <th colspan="3">Tableau 1</th>
+                </tr>
+                <tr>
+                    <th>Prénom :</th>
+                    <th>Nom :</th>
+                    <th>Age :</th>
+                </tr>
+                <tr>
+                    <td>Morgan</td>
+                    <td>NOTT</td>
+                    <td>42ans</td>
+                </tr>
+                <tr>
+                    <td>Stéphanie</td>
+                    <td>BEIGEAUD</td>
+                    <td>40ans</td>
+                </tr>
+                <tr>
+                    <td>Pierre</td>
+                    <td>MONNIER</td>
+                    <td>52ans</td>
+                </tr>
+                <tr>
+                    <td>Monique</td>
+                    <td>DUCLOS</td>
+                    <td>61ans</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="element">
+            <table id="table2">
+                <caption>TEST Tableau 2</caption>
+                <thead>
+                    <th colspan="4">Tableau 2</th>
+                    <tr>
+                        <th>Prénom :</th>
+                        <th>Nom :</th>
+                        <th>Age :</th>
+                        <th>Profession :</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Morgan</td>
+                        <td>NOTT</td>
+                        <td>42ans</td>
+                        <td>Sans</td>
+                    </tr>
+                    <tr>
+                        <td>Stéphanie</td>
+                        <td>BEIGEAUD</td>
+                        <td>40ans</td>
+                        <td>Commerciale</td>
+
+
+                    </tr>
+                </tbody>
+
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="element">
+            <table id="table3">
+                <caption>TEST Tableau 3</caption>
+                <tr>
+                    <th colspan="5">Tableau 3</th>
+                </tr>
+                <tr>
+                    <th>Prénoms :</th>
+                    <td class="Prénoms">Morgan</td>
+                    <td class="Prénoms">Pierre</td>
+                    <td class="Prénoms">Stéphanie</td>
+                    <td class="Prénoms">Monique</td>
+                </tr>
+                <tr>
+                    <th>Noms :</th>
+                    <td>NOTT</td>
+                    <td>MONNIER</td>
+                    <td>BEIGEAUD</td>
+                    <td>DUCLOS</td>
+                </tr>
+                <tr>
+                    <th>Ages :</th>
+                    <td>40ans</td>
+                    <td>52ans</td>
+                    <td>40ans</td>
+                    <td id="Moniquexxx" rowspan="2">xXx</td>
+                </tr>
+                <tr>
+                    <th>Professions :</th>
+                    <td colspan="2">Sans</td>
+                    <td>Commerciale</td>
+                    <!--        <td>Comptable</td>-->
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <footer>
+        <a href="#hautdepage">- Retour vers Haut de Page -</a>
+        <br>
+        <hr>
+        <p>Morgan NOTT©</p>
+    </footer>
+</body></html>
